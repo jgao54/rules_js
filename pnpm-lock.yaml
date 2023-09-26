@@ -81,8 +81,8 @@ importers:
         specifier: 6.3.0
         version: 6.3.0
       mobx-react:
-        specifier: 7.3.0
-        version: 7.3.0(mobx@6.3.0)(react@17.0.2)
+        specifier: 7.6.0
+        version: 7.6.0(mobx@6.3.0)(react@17.0.2)
       react:
         specifier: 17.0.2
         version: 17.0.2
@@ -4641,11 +4641,11 @@ packages:
       react: 17.0.2
     dev: true
 
-  /mobx-react@7.3.0(mobx@6.3.0)(react@17.0.2):
-    resolution: {integrity: sha512-RGEcwZokopqyJE5JPwXKB9FWMSqFM9NJVO2QPI+z6laJTJeBHqvPicjnKgY5mvihxTeXB1+72TnooqUePeGV1g==}
+  /mobx-react@7.6.0(mobx@6.3.0)(react@17.0.2):
+    resolution: {integrity: sha512-+HQUNuh7AoQ9ZnU6c4rvbiVVl+wEkb9WqYsVDzGLng+Dqj1XntHu79PvEWKtSMoMj67vFp/ZPXcElosuJO8ckA==}
     peerDependencies:
       mobx: ^6.1.0
-      react: ^16.8.0 || ^17
+      react: ^16.8.0 || ^17 || ^18
       react-dom: '*'
       react-native: '*'
     peerDependenciesMeta:
