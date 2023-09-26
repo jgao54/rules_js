@@ -78,11 +78,11 @@ importers:
         specifier: 1.0.0
         version: 1.0.0(patch_hash=o3deharooos255qt5xdujc3cuq)
       mobx:
-        specifier: 6.3.0
-        version: 6.3.0
+        specifier: 6.10.2
+        version: 6.10.2
       mobx-react:
         specifier: 7.3.0
-        version: 7.3.0(mobx@6.3.0)(react@17.0.2)
+        version: 7.3.0(mobx@6.10.2)(react@17.0.2)
       react:
         specifier: 17.0.2
         version: 17.0.2
@@ -4624,7 +4624,7 @@ packages:
       ufo: 1.1.0
     dev: true
 
-  /mobx-react-lite@3.4.0(mobx@6.3.0)(react@17.0.2):
+  /mobx-react-lite@3.4.0(mobx@6.10.2)(react@17.0.2):
     resolution: {integrity: sha512-bRuZp3C0itgLKHu/VNxi66DN/XVkQG7xtoBVWxpvC5FhAqbOCP21+nPhULjnzEqd7xBMybp6KwytdUpZKEgpIQ==}
     peerDependencies:
       mobx: ^6.1.0
@@ -4637,11 +4637,11 @@ packages:
       react-native:
         optional: true
     dependencies:
-      mobx: 6.3.0
+      mobx: 6.10.2
       react: 17.0.2
     dev: true
 
-  /mobx-react@7.3.0(mobx@6.3.0)(react@17.0.2):
+  /mobx-react@7.3.0(mobx@6.10.2)(react@17.0.2):
     resolution: {integrity: sha512-RGEcwZokopqyJE5JPwXKB9FWMSqFM9NJVO2QPI+z6laJTJeBHqvPicjnKgY5mvihxTeXB1+72TnooqUePeGV1g==}
     peerDependencies:
       mobx: ^6.1.0
@@ -4654,13 +4654,13 @@ packages:
       react-native:
         optional: true
     dependencies:
-      mobx: 6.3.0
-      mobx-react-lite: 3.4.0(mobx@6.3.0)(react@17.0.2)
+      mobx: 6.10.2
+      mobx-react-lite: 3.4.0(mobx@6.10.2)(react@17.0.2)
       react: 17.0.2
     dev: true
 
-  /mobx@6.3.0:
-    resolution: {integrity: sha512-Aa1+VXsg4WxqJMTQfWoYuJi5UD10VZhiobSmcs5kcmI3BIT0aVtn7DysvCeDADCzl7dnbX+0BTHUj/v7gLlZpQ==}
+  /mobx@6.10.2:
+    resolution: {integrity: sha512-B1UGC3ieK3boCjnMEcZSwxqRDMdzX65H/8zOHbuTY8ZhvrIjTUoLRR2TP2bPqIgYRfb3+dUigu8yMZufNjn0LQ==}
     dev: true
 
   /mocha-junit-reporter@2.2.0(mocha@10.2.0):
